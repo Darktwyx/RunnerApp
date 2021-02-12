@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Runner</title>
+	<meta charset="utf-8">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+	<!-- Fontawesome & Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header trans_300">
+
+			<!-- Nav bar -->
+
+			<div class="main_nav_container">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-right">
+							<div class="logo_container">
+								<a href="index.html"><img class="logo" src="images/Runner-logo.png" alt="runner-logo"></a>
+							</div>
+							<nav class="navbar">
+								<ul class="navbar_menu">
+									<li><a class="nav-a" href="#">home</a></li>
+									<li><a class="nav-a" href="about_us.html">about us</a></li>
+									<li><a class="nav-a" href="shop.html">shop</a></li>
+									<li><a class="nav-a" href="contact.html">contact</a></li>
+								</ul>
+								<ul class="navbar_user">
+									<li><i class="fa fa-search nav-icon" aria-hidden="true"></i></li>
+									<li><a class="nav-a" href="#"><i class="fa fa-user nav-icon" aria-hidden="true"></i></a></li>
+									<li class="checkout">
+										<a href="#">
+											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+											<!-- Pogledaj kad budes dodavao -->
+											<!-- <span id="checkout_items" class="checkout_items">2</span> -->
+										</a>
+									</li>
+								</ul>
+								<div class="hamburger_container">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+		<div class="fs_menu_overlay"></div>
+		<div class="hamburger_menu">
+			<div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<div class="hamburger_menu_content text-right">
+				<ul class="menu_top_nav">
+					<li class="menu_item has-children">
+						<a href="#">
+							My Account
+							<i class="fa fa-angle-down"></i>
+						</a>
+						<ul class="menu_selection">
+							<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+							<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+						</ul>
+					</li>
+					<li class="menu_item"><a href="index.html">home</a></li>
+					<li class="menu_item"><a href="about_us.html">about us</a></li>
+					<li class="menu_item"><a href="shop.html">shop</a></li>
+					<li class="menu_item"><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Carousel/Slider -->
+
+		<section id="home-slider">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<h1 class="h1-home">Get up to 20% <br>Off New Arrivals</h1>
+						<h6 class="h6-home">Spring / Summer Collection 2019</h6>
+						<div class="btn btn-outline-dark"><a href="shop.html">SHOP NOW</a></div>
+						<img class="image-home" src="images/home-image-1.jpg" alt="home-image-1" />
+					</div>
+					<div class="carousel-item">
+						<h1 class="h1-home-2">Be the best <span class="h6-blue">version</span> of yourself</h1>
+						<h6 class="h6-home-2">Find perfect model for you</h6>
+						<div class="btn btn-outline-dark"><a href="shop.html">SHOP NOW</a></div>
+						<img class="image-home" src="images/home-image-4.jpg" alt="home-image-2" />
+					</div>
+					<div class="carousel-item">
+						<h1 class="h1-home">Buy online and <br>get it fast</h1>
+						<h6 class="h6-home"><span class="h6-grey">Check out our new online shop</span></h6>
+						<div class="btn btn-outline-dark"><a href="shop.html">SHOP NOW</a></div>
+						<img class="image-home" src="images/home-image-5.jpg" alt="home-image-3" />
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Banner -->
+
+		<div class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="banner_item align-items-center" style="background-image:url(images/women-home-1.jpg)">
+							<div class="banner_category">
+								<a href="shop.html">women's</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="banner_item align-items-center" style="background-image:url(images/kids-home-1.jpg)">
+							<div class="banner_category">
+								<a href="shop.html">kids's</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="banner_item align-items-center" style="background-image:url(images/men-home-1.jpg)">
+							<div class="banner_category">
+								<a href="shop.html">men's</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- New Arrivals -->
+
+		<div class="new_arrivals">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="section_title new_arrivals_title">
+							<h2>New Arrivals</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col text-center">
+						<div class="new_arrivals_sorting">
+							<ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+								<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">all</li>
+								<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">women's</li>
+								<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">kid's</li>
+								<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">men's</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
+
+							<!-- Product 1 -->
+
+							<div class="product-item men">
+								<div class="product discount product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-1.jpg" alt="patike-1"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">NIKE AIR MAX 97 AOP</a></h6>
+										<div class="product_price">&#8364; 200.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 2 -->
+
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-2.jpg" alt="patike-2"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">ADIDAS ASWEERUN W</a></h6>
+										<div class="product_price">&#8364; 80.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 3 -->
+
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-6.jpg" alt="patike-3"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">ADIDAS ENERGY CLOUD WTC W</a></h6>
+										<div class="product_price">&#8364; 60.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 4 -->
+
+							<div class="product-item accessories">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-4.jpg" alt="patike-4"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">ADIDAS GAZELLE CF I</a></h6>
+										<div class="product_price">&#8364; 50.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 5 -->
+
+							<div class="product-item women men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-5.jpg" alt="patike-5"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">ADIDAS PW TENNIS HU PK CWHITE/CBLACK/FTWWHT</a></h6>
+										<div class="product_price">&#8364; 90.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 6 -->
+
+							<div class="product-item accessories">
+								<div class="product discount product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-7.jpg" alt="patike-6"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">REEBOK ROYAL CLJOG 2 KC</a></h6>
+										<div class="product_price">&#8364; 35.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 7 -->
+
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-3.jpg" alt="patike-7"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">ADIDAS DEERUPT W</a></h6>
+										<div class="product_price">&#8364; 100.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 8 -->
+
+							<div class="product-item accessories">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-8.jpg" alt="patik-8"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">NIKE CORTEZ BASIC SL</a></h6>
+										<div class="product_price">&#8364; 30.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 9 -->
+
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-9.jpg" alt="patike-9"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">NIKE PRESTO FLY WRLD</a></h6>
+										<div class="product_price">&#8364; 110.00</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Product 10 -->
+
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<a href="shop.html"><img src="images/patike-10.jpg" alt="patike-10"></a>
+									</div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="shop.html">UNDER ARMOUR Speedform Slingshot 2</a></h6>
+										<div class="product_price">&#8364; 90.00</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Deal of the week -->
+
+		<div id="promotion" class="deal_ofthe_week">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="deal_ofthe_week_img">
+							<img src="images/dealoftheweek.png" alt="deal-of-the-week">
+						</div>
+					</div>
+					<div class="col-lg-6 text-right deal_ofthe_week_col">
+						<div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
+							<div class="section_title white-line">
+								<h2 class="h2-deal">Deal Of The Week</h2>
+								<h4>Disscount price: &#8364; 79.99</h4>
+							</div>
+							<div class="btn btn-outline-dark bg-dark dealbtn"><a href="shop.html">SHOP NOW</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Benefit -->
+
+		<div class="benefit">
+			<div class="container">
+				<div class="row benefit_row">
+					<div class="col-lg-3 benefit_col">
+						<div class="benefit_item d-flex flex-row align-items-center">
+							<div class="benefit_icon"><i class="fas fa-truck"></i></div>
+							<div class="benefit_content">
+								<h6>Free Shipping</h6>
+								<p>For all orders over 50 &#8364;</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 benefit_col">
+						<div class="benefit_item d-flex flex-row align-items-center">
+							<div class="benefit_icon"><i class="fas fa-check"></i></div>
+							<div class="benefit_content">
+								<h6>Quality guarantee</h6>
+								<p>We guarantee quality of all our products</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 benefit_col">
+						<div class="benefit_item d-flex flex-row align-items-center">
+							<div class="benefit_icon"><i class="fas fa-shopping-cart"></i></div>
+							<div class="benefit_content">
+								<h6>24/7 e-shop</h6>
+								<p>You can buy all our products online anytime</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 benefit_col">
+						<div class="benefit_item d-flex flex-row align-items-center">
+							<div class="benefit_icon"><i class="fas fa-undo"></i></div>
+							<div class="benefit_content">
+								<h6>7 days back</h6>
+								<p>If your running shoes don't fit, you can get new one</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer-1">
+							<a class="footer-text"href="#home-slider">Home</a>
+							<a class="footer-text"href="shop.html">Shop</a>
+							<a class="footer-text"href="contact.html">Contact us</a>
+						</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer_nav_container">
+						<a href="#"><i class="footer-icon fab fa-facebook-f"></i></a>
+						<a href="#"><i class="footer-icon fab fa-twitter"></i></a>
+						<a href="#"><i class="footer-icon fab fa-instagram"></i></a>
+						<div>Runner ©2018 All Rights Reserved.</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+
+</html>

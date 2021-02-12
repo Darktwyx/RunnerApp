@@ -1,0 +1,218 @@
+/* CSS Document */
+
+/******************************
+
+COLOR PALETTE:
+
+#e23e57 - pink
+#88304e - purple
+#522546 - dark purple
+#311d3f - dark dark purple
+
+/******************************/
+
+a {
+	color: #1e1e27;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+
+.banner_category a:hover {
+	color: #fff;
+}
+
+.logo {
+	height: 100px;
+	width: 250px;
+	padding: 4% 10%;
+}
+
+.image-home {
+	width: 100%;
+	max-height: 800px;
+}
+
+.main_nav_container {
+	background-color: #fff;
+}
+
+.carousel-inner {
+	position: absolute;
+	max-height: 800px;
+}
+
+.btn {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;
+	padding: 5px 40px;
+	font-size: 1.5rem;
+}
+
+.h1-home {
+	position: absolute;
+	margin-top: 10%;
+	color: white;
+	font-size: 4rem;
+	text-align: left;
+	padding: 5% 8%;
+}
+
+.h6-home {
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 5px;
+	color: white;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10% 8%;
+}
+
+.h1-home-2 {
+	position: absolute;
+	text-align: right;
+	color:#40514e;
+	margin-top: 13%;
+	margin-left: 50%;
+	padding-right: 10%;
+	font-size: 4rem;
+}
+
+.h6-home-2 {
+	position: absolute;
+	text-align: right;
+	color: #40514e;
+	margin-top: 20%;
+	padding-top: 10%;
+	margin-left: 80%;
+	padding-right: 10%;
+	font-size: 1rem;
+}
+
+.h6-grey {
+	color:#40514e;
+}
+
+.h6-blue {
+	color:#30e3ca;
+}
+
+.banner {
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+	margin-top: 50%;
+	padding: 7% 10% 7%;
+	background-color: #30e3ca;
+
+}
+
+.banner_category:hover {
+	background-color: #40514e;
+}
+
+.banner_item {
+	border-style: solid;
+  border-color: #fff;
+  border-width: 5px;
+}
+
+.new_arrivals_title {
+	margin-top: 5%;
+}
+
+.deal_ofthe_week_img {
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#promotion {
+	background-color: #30e3ca;
+}
+
+.section_title h2 {
+	color: #282828;
+}
+
+.h2-deal {
+	color: #fff!important;
+}
+
+.section_title::after{
+	background-color: #30e3ca;
+}
+
+.white-line::after{
+	background-color: #fff;
+}
+
+.dealbtn {
+	color: #fff;
+	background-color: #fff!important;
+	margin: 15% 3%;
+
+}
+
+.dealbtn:hover {
+	background-color: #40514e!important;
+}
+
+a:hover {
+	color: #fff!important;
+}
+
+.benefit_icon i {
+	color: #11999e;
+}
+
+.benefit_item {
+	background-color: #e4f9f5;
+}
+
+.footer-icon {
+	padding: 2% 1%;
+}
+
+.footer-icon:hover{
+	color: #E6E9EC!important;
+}
+
+.footer-1 {
+	padding: 3% 1% 1%;
+}
+
+.footer-text {
+	padding: 2% 1%;
+}
+
+.footer-text:hover {
+	color: #E6E9EC!important;
+}
+
+.footer_nav_container {
+	height: 100px;
+}
+
+.nav-a:hover {
+	color: #E6E9EC!important;
+}
+
+.nav-icon:hover {
+	color: #E6E9EC!important;
+}
+
+.product_price {
+	color: #E6E9EC!important;
+}
+
+@media {
+
+}
